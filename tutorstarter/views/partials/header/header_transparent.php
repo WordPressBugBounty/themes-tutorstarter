@@ -49,6 +49,9 @@ $obj = new Header_COMP();
 			);
 		endif;
 		?>
+		<?php
+		if( defined('TUTOR_VERSION') ) {
+		?>
 		<div class="navbar-utils">
 			<?php if ( true === get_theme_mod( 'header_search_toggle' ) ) : ?>
 				<div class="utils-search">
@@ -131,5 +134,6 @@ $obj = new Header_COMP();
 				<?php endif; ?>
 			<?php endif; ?>
 		</div>
+		<?php } ?>
 	</nav>
 </header>

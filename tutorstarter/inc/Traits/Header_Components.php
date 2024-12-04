@@ -36,7 +36,7 @@ trait Header_Components {
 		?>
 		<div class="tutor-header-profile-photo">
 			<?php 
-			$profile_pic = tutor_utils()->get_tutor_avatar( get_current_user_id() ); 
+			$profile_pic = tutor_utils()->get_tutor_avatar( get_current_user_id() );
 			?>
 		</div><!-- .tutor-header-profile-photo -->
 		<div class="tutor-header-profile-content">

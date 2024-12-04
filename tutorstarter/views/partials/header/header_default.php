@@ -44,9 +44,12 @@ $obj = new Header_COMP();
 			);
 		}
 		?>
+		<?php 
+		if( defined('TUTOR_VERSION') ) {
+		?>
 		<div class="navbar-utils">
 			<?php
-			if ( class_exists( 'WooCommerce' ) && 'wc' === tutor_utils()->get_option( 'monetize_by' ) && 'header_fullwidth_center' !== get_theme_mod( 'header_type_select' ) ) {
+			if ( class_exists( 'WooCommerce' ) && defined('TUTOR_VERSION') && 'wc' === tutor_utils()->get_option( 'monetize_by' ) && 'header_fullwidth_center' !== get_theme_mod( 'header_type_select' ) ) {
 				global $woocommerce;
 				$items = $woocommerce->cart->get_cart();
 				if ( true === get_theme_mod( 'cart_btn_toggle', true ) ) {
@@ -71,7 +74,7 @@ $obj = new Header_COMP();
 			<?php } ?>
 
 			<?php
-			if ( class_exists( 'Tutor\Ecommerce\CartController' ) && 'tutor' == tutor_utils()->get_option( 'monetize_by' ) && 'header_fullwidth_center' !== get_theme_mod( 'header_type_select' ) ) {
+			if ( defined('TUTOR_VERSION') && class_exists( 'Tutor\Ecommerce\CartController' ) && 'tutor' == tutor_utils()->get_option( 'monetize_by' ) && 'header_fullwidth_center' !== get_theme_mod( 'header_type_select' ) ) {
 				$tutor_native_cart_controller = new CartController();
 				?>
 				<?php
@@ -101,7 +104,6 @@ $obj = new Header_COMP();
 					<?php
 				}
 			}
-
 			if ( ! is_user_logged_in() || is_customize_preview() ) {
 				?>
 				<?php if ( true === get_theme_mod( 'cta_text_toggle', true ) ) { ?>
@@ -123,5 +125,6 @@ $obj = new Header_COMP();
 			}
 			?>
 		</div>
+		<?php }; ?>
 	</nav>
 </header>
