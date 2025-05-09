@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: TutorStarter 3.0.2\n"
+"Project-Id-Version: TutorStarter 3.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/tutorstarter\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-03-04T07:18:29+00:00\n"
+"POT-Creation-Date: 2025-05-09T07:32:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: tutorstarter\n"
@@ -1069,97 +1069,97 @@ msgstr ""
 msgid "Tutor Starter Schema"
 msgstr ""
 
-#: inc/Helpers.php:321
+#: inc/Helpers.php:290
 msgid "<"
 msgstr ""
 
-#: inc/Helpers.php:322
+#: inc/Helpers.php:291
 msgid ">"
 msgstr ""
 
-#: inc/Helpers.php:339
-#: inc/Helpers.php:516
+#: inc/Helpers.php:308
+#: inc/Helpers.php:485
 msgid "Cheating huh?"
 msgstr ""
 
-#: inc/Helpers.php:356
+#: inc/Helpers.php:325
 msgid "Please provide a username."
 msgstr ""
 
-#: inc/Helpers.php:367
+#: inc/Helpers.php:336
 msgid "A valid email is required."
 msgstr ""
 
-#: inc/Helpers.php:378
+#: inc/Helpers.php:347
 msgid "Please provide a strong password."
 msgstr ""
 
-#: inc/Helpers.php:389
+#: inc/Helpers.php:358
 msgid "Please confirm the password."
 msgstr ""
 
-#: inc/Helpers.php:400
+#: inc/Helpers.php:369
 msgid "Username already exists."
 msgstr ""
 
-#: inc/Helpers.php:411
+#: inc/Helpers.php:380
 msgid "Email address is not valid."
 msgstr ""
 
-#: inc/Helpers.php:422
+#: inc/Helpers.php:391
 msgid "This Email already exists."
 msgstr ""
 
-#: inc/Helpers.php:433
+#: inc/Helpers.php:402
 msgid "Password must be 7 characters or more."
 msgstr ""
 
-#: inc/Helpers.php:444
+#: inc/Helpers.php:413
 msgid "Password does not match."
 msgstr ""
 
-#: inc/Helpers.php:472
+#: inc/Helpers.php:441
 msgid "Something went wrong! Please try again later."
 msgstr ""
 
-#: inc/Helpers.php:483
+#: inc/Helpers.php:452
 msgid "Registration successful, redirecting..."
 msgstr ""
 
-#: inc/Helpers.php:495
+#: inc/Helpers.php:464
 msgid "Incorrect username or password."
 msgstr ""
 
-#: inc/Helpers.php:531
+#: inc/Helpers.php:500
 msgid "Email is not valid."
 msgstr ""
 
-#: inc/Helpers.php:542
+#: inc/Helpers.php:511
 msgid "Password field is empty."
 msgstr ""
 
-#: inc/Helpers.php:561
+#: inc/Helpers.php:530
 msgid "Invalid login details"
 msgstr ""
 
-#: inc/Helpers.php:572
+#: inc/Helpers.php:541
 msgid "Signin successful, redirecting..."
 msgstr ""
 
-#: inc/Helpers.php:593
-#: inc/Helpers.php:627
+#: inc/Helpers.php:562
+#: inc/Helpers.php:596
 #: views/partials/header/header_default.php:83
 #: views/partials/header/header_transparent.php:90
 msgid "View your shopping cart"
 msgstr ""
 
-#: inc/Helpers.php:650
+#: inc/Helpers.php:619
 #: woocommerce/checkout/form-checkout.php:14
 msgid "Complete Payment"
 msgstr ""
 
-#: inc/Helpers.php:707
-#: inc/Helpers.php:731
+#: inc/Helpers.php:676
+#: inc/Helpers.php:700
 #: views/partials/header/header_transparent.php:131
 msgid "%s"
 msgstr ""
