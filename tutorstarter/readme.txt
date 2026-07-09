@@ -2,8 +2,8 @@
 Contributors: themeum
 Tags: education, e-commerce, blog, custom-logo, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, rtl-language-support, footer-widgets, left-sidebar, right-sidebar
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 3.0.4
+Tested up to: 7.0
+Stable tag: 4.0.1
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -18,8 +18,8 @@ Tutor Starter is a free WordPress LMS theme powered by Tutor LMS, the popular eL
 3. Install and activate
 
 == Copyright ==
-Tutor Starter WordPress theme, Copyright 2021 Themeum
-Tutor Starter is distributed under the terms of the GNU GPLv3 or later
+TutorStarter WordPress Theme, Copyright (C) 2021-2026 Themeum
+TutorStarter is distributed under the terms of the GNU GPLv3 or later
 GitHub Repo: https://github.com/themeum/tutorstarter/
 
 == Screenshots ==
@@ -83,6 +83,13 @@ If you found any bugs or issues, please let us know by posting on the support se
 == Upgrade Notice ==
 
 == Changelog ==
+
+= 4.0.1 =
+
+Fix: WP Theme standard issues has been fixed.
+
+= 4.0.0 =
+Update : Added compatibility with Tutor LMS 4.0.0
 
 = 3.0.4 =
 Update : Compatibility with latest WooCommerce

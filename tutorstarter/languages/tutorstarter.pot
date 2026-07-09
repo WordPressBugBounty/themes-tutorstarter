@@ -1,36 +1,42 @@
-# Copyright (C) 2025 Themeum
+# Copyright (C) 2026 Themeum
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: TutorStarter 3.0.4\n"
+"Project-Id-Version: TutorStarter 4.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/tutorstarter\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-07-25T09:09:18+00:00\n"
+"POT-Creation-Date: 2026-07-08T09:33:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: tutorstarter\n"
 
 #. Theme Name of the theme
-#: style.css
+#: style.css:2
+#: inc/Custom/Block_Extras.php:75
 msgid "TutorStarter"
 msgstr ""
 
+#. Theme URI of the theme
+#: style.css:3
+msgid "https://github.com/themeum/tutorstarter/"
+msgstr ""
+
 #. Description of the theme
-#: style.css
+#: style.css:6
 msgid "Tutor Starter is a free WordPress LMS theme powered by Tutor LMS, the popular eLearning plugin for WordPress. It is designed to let Tutor LMS take center stage while also letting you pick what feels right. Tutor Starter is created with the same Unified Design System from Tutor LMS making it the perfect companion eLearning theme for Tutor LMS. Tutor Starter is also highly specialized for speed and efficiency, with all of its components optimized to give your eLearning website a great score on Google's PageSpeed. Tutor Starter pages are also schema ready and SEO optimized to make ranking on search engines as easy as pie! It also boasts an impressive blog single page for perfect readability. With full support for both Elementor and Gutenberg, Tutor Starter hopes to cater to the largest audience of both classic page builders and modern Gutenberg based builders. It comes with customizer settings for headers, footers, and everything in between. With several header and footer variations, advanced typography settings, and contextual page settings, create the eLearning website of your dreams with this free LMS theme. Tutor Starter features 3 modern and pre-built home layouts with fully functioning inner pages for both Elementor and Gutenberg to let you get started in no time. Tutor Starter also features a clean and light one-click demo importer to import all these pre-built home layouts for Gutenberg and Elementor. This, along with deep ties with Tutor LMS makes it a no-brainer WordPress LMS theme. Please Check theme demo here https://preview.tutorlms.com/"
 msgstr ""
 
 #. Author of the theme
-#: style.css
+#: style.css:4
 msgid "Themeum"
 msgstr ""
 
 #. Author URI of the theme
-#: style.css
+#: style.css:5
 msgid "https://www.themeum.com"
 msgstr ""
 
@@ -668,6 +674,70 @@ msgstr ""
 msgid "%1$s"
 msgstr ""
 
+#: inc/Custom/Block_Extras.php:39
+msgid "TutorStarter Rounded"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:48
+msgid "TutorStarter Boxed"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:57
+msgid "TutorStarter Card"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:81
+msgid "Call to Action"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:82
+msgid "A centered call to action section with a heading, supporting text, and a button."
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:86
+msgid "Start Learning Today"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:90
+msgid "Join thousands of learners and take your skills to the next level with our expert-led courses."
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:95
+msgid "Browse Courses"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:105
+msgid "Feature Columns"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:106
+msgid "Three columns highlighting theme or course features."
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:111
+msgid "Expert Instructors"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:115
+msgid "Learn from industry professionals with years of real-world experience."
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:121
+msgid "Flexible Learning"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:125
+msgid "Study at your own pace, anytime and anywhere, on any device."
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:131
+msgid "Certification"
+msgstr ""
+
+#: inc/Custom/Block_Extras.php:135
+msgid "Earn certificates that showcase your achievements and skills."
+msgstr ""
+
 #: inc/Custom/class-tgm-plugin-activation.php:329
 msgid "Install Required Plugins"
 msgstr ""
@@ -1190,7 +1260,7 @@ msgid "View your shopping cart"
 msgstr ""
 
 #: inc/Helpers.php:619
-#: woocommerce/checkout/form-checkout.php:14
+#: woocommerce/checkout/form-checkout.php:22
 msgid "Complete Payment"
 msgstr ""
 
@@ -1222,78 +1292,85 @@ msgstr ""
 msgid "CatMenu"
 msgstr ""
 
-#: inc/Setup/Setup.php:54
+#: inc/Setup/Setup.php:55
 msgid "Medium Blue"
 msgstr ""
 
-#: inc/Setup/Setup.php:59
+#: inc/Setup/Setup.php:60
 msgid "Deep Navyblue"
 msgstr ""
 
-#: inc/Setup/Setup.php:64
+#: inc/Setup/Setup.php:65
 msgid "Off White"
 msgstr ""
 
-#: inc/Setup/Setup.php:69
+#: inc/Setup/Setup.php:70
 msgid "Bluish Dark grey"
 msgstr ""
 
-#: inc/Setup/Setup.php:74
+#: inc/Setup/Setup.php:75
 msgid "Light grey"
 msgstr ""
 
-#: inc/Setup/Setup.php:89
+#: inc/Setup/Setup.php:90
 msgid "Normal"
 msgstr ""
 
-#: inc/Setup/Setup.php:94
+#: inc/Setup/Setup.php:95
 msgid "Normal+"
 msgstr ""
 
-#: inc/Setup/Setup.php:99
+#: inc/Setup/Setup.php:100
 msgid "Medium"
 msgstr ""
 
-#: inc/Setup/Setup.php:104
+#: inc/Setup/Setup.php:105
 msgid "Medium+"
 msgstr ""
 
-#: inc/Setup/Setup.php:109
+#: inc/Setup/Setup.php:110
 msgid "Big"
 msgstr ""
 
-#: inc/Setup/Setup.php:114
+#: inc/Setup/Setup.php:115
 msgid "Huge"
 msgstr ""
 
-#: inc/Traits/Header_Components.php:109
-#: inc/Traits/Header_Components.php:172
+#: inc/Traits/Header_Components.php:108
+#: inc/Traits/Header_Components.php:174
+#: inc/Traits/Header_Components.php:194
 msgid "Dashboard"
 msgstr ""
 
-#: inc/Traits/Header_Components.php:113
-#: inc/Traits/Header_Components.php:180
+#: inc/Traits/Header_Components.php:112
+#: inc/Traits/Header_Components.php:182
+#: inc/Traits/Header_Components.php:202
 msgid "Account Settings"
 msgstr ""
 
-#: inc/Traits/Header_Components.php:117
-#: inc/Traits/Header_Components.php:184
+#: inc/Traits/Header_Components.php:116
+#: inc/Traits/Header_Components.php:186
+#: inc/Traits/Header_Components.php:206
 msgid "Logout"
 msgstr ""
 
-#: inc/Traits/Header_Components.php:176
+#: inc/Traits/Header_Components.php:178
+#: inc/Traits/Header_Components.php:198
 msgid "My profile"
 msgstr ""
 
 #. Template Name of the theme
+#: page-templates/tpl-canvas.php:3
 msgid "Canvas"
 msgstr ""
 
 #. Template Name of the theme
+#: page-templates/tpl-fluid.php:3
 msgid "Full Width Template"
 msgstr ""
 
 #. Template Name of the theme
+#: page-templates/tpl-getting-started.php:3
 #: page-templates/tpl-getting-started.php:29
 #: views/partials/header/header_default.php:115
 #: views/partials/header/header_default.php:116
@@ -1321,6 +1398,7 @@ msgid "tutor ™ 2021"
 msgstr ""
 
 #. Template Name of the theme
+#: page-templates/tpl-signin.php:3
 msgid "Sign In"
 msgstr ""
 
@@ -1369,6 +1447,7 @@ msgid "Sign up"
 msgstr ""
 
 #. Template Name of the theme
+#: page-templates/tpl-signup.php:3
 msgid "Sign Up"
 msgstr ""
 
@@ -1470,7 +1549,8 @@ msgstr ""
 
 #: woocommerce/cart/cart-totals.php:24
 #: woocommerce/cart/cart-totals.php:25
-#: woocommerce/checkout/review-order.php:16
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:58
 msgid "Subtotal"
 msgstr ""
 
@@ -1487,110 +1567,130 @@ msgstr ""
 
 #: woocommerce/cart/cart-totals.php:101
 #: woocommerce/cart/cart-totals.php:102
-#: woocommerce/checkout/review-order.php:97
+#: woocommerce/checkout/review-order.php:105
 msgid "Total"
 msgstr ""
 
-#: woocommerce/cart/cart.php:63
-#: woocommerce/checkout/form-checkout.php:74
+#: woocommerce/cart/cart.php:72
+#: woocommerce/checkout/form-checkout.php:83
 msgid "Available on backorder"
 msgstr ""
 
-#: woocommerce/cart/cart.php:86
-msgid "Remove this item"
+#. translators: %s is the product name in the cart.
+#: woocommerce/cart/cart.php:96
+#, php-format
+msgid "Remove %s from cart"
 msgstr ""
 
-#: woocommerce/cart/cart.php:89
+#: woocommerce/cart/cart.php:99
 msgid "Remove"
 msgstr ""
 
-#: woocommerce/cart/cart.php:113
-#: woocommerce/checkout/form-checkout.php:95
+#: woocommerce/cart/cart.php:123
+#: woocommerce/checkout/form-checkout.php:106
 msgid "Summary"
 msgstr ""
 
-#: woocommerce/cart/cart.php:136
+#: woocommerce/cart/cart.php:146
 msgid "Enter coupon"
 msgstr ""
 
-#: woocommerce/cart/cart.php:136
+#: woocommerce/cart/cart.php:146
 msgid "Apply"
 msgstr ""
 
-#: woocommerce/checkout/form-checkout.php:21
+#: woocommerce/checkout/form-checkout.php:30
 msgid "You must be logged in to checkout."
 msgstr ""
 
-#: woocommerce/checkout/form-checkout.php:26
+#: woocommerce/checkout/form-checkout.php:35
 msgid "Checkout"
 msgstr ""
 
-#: woocommerce/checkout/form-checkout.php:36
+#: woocommerce/checkout/form-checkout.php:45
 msgid "Order Details"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:27
+#: woocommerce/checkout/form-coupon.php:35
 msgid "Have a coupon?"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:27
+#: woocommerce/checkout/form-coupon.php:35
 msgid "Enter your coupon code"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:27
+#: woocommerce/checkout/form-coupon.php:35
 msgid "Click here to enter your code"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:34
+#: woocommerce/checkout/form-coupon.php:42
 msgid "If you have a coupon code, please apply it below."
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:37
+#: woocommerce/checkout/form-coupon.php:45
 msgid "Coupon:"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:38
+#: woocommerce/checkout/form-coupon.php:46
 msgid "Coupon code"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:42
+#: woocommerce/checkout/form-coupon.php:50
 msgid "Apply coupon"
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:15
+#: woocommerce/checkout/payment.php:34
+msgid "Sorry, it seems that there are no available payment methods. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:23
 #: inc/Custom/Schema/schemajs/src/schema/fields/select-options.js:67
 msgid "Product"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:23
+#: woocommerce/checkout/thankyou.php:33
 msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:26
+#: woocommerce/checkout/thankyou.php:36
 msgid "Pay"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/checkout/thankyou.php:38
 msgid "My account"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:39
+#: woocommerce/checkout/thankyou.php:49
 msgid "Order number:"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:44
+#: woocommerce/checkout/thankyou.php:54
 msgid "Date:"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:50
+#: woocommerce/checkout/thankyou.php:60
 msgid "Email:"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:56
+#: woocommerce/checkout/thankyou.php:66
 msgid "Total:"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:62
+#: woocommerce/checkout/thankyou.php:72
 msgid "Payment method:"
 msgstr ""
 

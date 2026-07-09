@@ -2,9 +2,17 @@
 /**
  * Review order table
  *
- * @see https://docs.woocommerce.com/document/template-structure/
+ * This template can be overridden by copying it to yourtheme/woocommerce/checkout/review-order.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see https://woocommerce.com/document/template-structure/
  * @package WooCommerce\Templates
- * @version 10.0.0
+ * @version 5.2.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -47,7 +55,7 @@ defined( 'ABSPATH' ) || exit;
 		
 				
 	<tr class="cart-subtotal">
-		<th><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
+		<th><?php esc_html_e( 'Subtotal', 'tutorstarter' ); ?></th>
 		<td><?php wc_cart_totals_subtotal_html(); ?></td>
 	</tr>
 
@@ -77,7 +85,7 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php if ( wc_tax_enabled() && ! WC()->cart->display_prices_including_tax() ) : ?>
 			<?php if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) : ?>
-				<?php foreach ( WC()->cart->get_tax_totals() as $code => $tax ) : ?> // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
+				<?php foreach ( WC()->cart->get_tax_totals() as $code => $tax ) : // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited ?>
 					<tr class="tax-rate tax-rate-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
 						<th><?php echo esc_html( $tax->label ); ?></th>
 						<td><?php echo wp_kses_post( $tax->formatted_amount ); ?></td>
